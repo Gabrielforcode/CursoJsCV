@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manipulação de dados</h1>
+    <h2>Utilização 'var'</h2>
+    <p>
+        <pre>
+            
+            var nome = prompt('Qual seu nome?')
+            alert(`Seu nome é ${nome}`)
+           
+        </pre>
+        <pre>
+            var n1 = prompt('Digite um numero')
+            var n2 = prompt('Digite outro numero')
+            window.alert(`A soma dos valores é ${ n1n2 }`)
+            // prompt salva em string
+            
+        </pre>
+    </p>
+    <h2>Para converter de string para number utizamos</h2>
+    <ul>
+        <li>Number.parseInt (n) (Converção para Number inteiro)</li>
+        <li>Number.parseFloat (n) (Converção para Number real)</li>
+        <li>Number (n) (converte conforme valor informado) </li>
+    </ul>
+    <h2>Para convertemos de number para string utilizamos</h2>
+    <ul>
+        <li>String(n)</li>
+        <li>n.toString()</li>
+    </ul>
+    <h1>Formatação de String</h1>
+    <ul>
+        <li>s.length retorna o tamanho de s</li>
+        <li>s.toUpperCase() retorna s em caixa alta</li>
+        <li>s.tolowerCase() retorna s em caixa baixa</li>
+    </ul>
+    <h1>Formatação de Numeros</h1>
+    <ul>
+        <li>s.toFixed(n) para adicionar casas decimais</li>
+        <li>s.toFixed(n).replace('.' , ',') pra subistituir . por ,</li>
+        <li>s.toLocaleString('pt-BR' {style: 'currency', currency: 'BRL'}) </li>
+        <li>s.toLocaleString('pt-BR' {style: 'currency', currency: 'USD'})</li>
+    </ul>
+    
+
+    
+    <aside>
+        <p>documente.write retorna na tela <br>
+        pode-se inserir tags dentro comandos Js <br>
+        </p>
+
+    </aside>
+    
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula05 Variáveis e Tipos Primitivos</title>
+    <style>
+        body {
+            background-color: #00427E;
+            color: white;
+            font-family: sans-serif;
+        }
+        h1{
+            background-color: #9E9E9E;
+            text-align: center;
+            border-radius: 5px;
+        }
+        h2{
+            background-color: #9E9E9E;
+            text-align: center;
+            border-radius: 5px;
+
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: #9E9E9E;
+            text-decoration: underline;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Antes do inicio da aula</h1>
+    <h2>Aula Anterior (04)</h2>
+    <p>Na aula anterior aprendemos os comandos</p> 
+    <ul>        
+        <li>Window.alert() 
+        <li>Window.confirm() 
+        <li>Window.prompt()
+    </ul>
+    <h2>Comentários em JS</h2>
+    <p>
+        JS aceita '//' ou '/* */' para incersão de Comentários. Comandos de comentários só funcionam dentro da tag script </p> 
+    <ul>
+        <li>// = comentários de uma linha</li>
+        <li>/* */ = comentários de mais de uma linha</li>
+    </ul>
+    <h1>Variáveis</h1>
+    <p>Nome de variáveis == identificador</p>
+    <ul>
+        <li>Podem começar com letras, $ ou _</li>
+        <li>Não podem comer com números</li>
+        <li>É possível usar letras ou números</li>
+        <li>É possível usar acentos e símbolos</li>
+        <li>Não podem conter espaços</li>
+        <li>Não podem ser palavras reservadas (Não podem ser palavras usadas pelo JS como comandos)</li>
+    </ul>
+    <p>Dicas</p>
+    <ul>
+        <li>Maiusculas e minusculas diferem</li>
+        <li>Tente escolher nomes coerentes para as variáveis</li>
+        <li>Evite se tornar um 'programador alfabeto' ou programador 'contador'</li>
+    </ul>
+    <p>Variáves servem para guardar dados sejam eles boolean, number, strings. <br></p>
+    <h2>Data Types (tipos Primitivos)</h2>
+    <ul>
+        <li>Number 
+            <ul>
+                <li>Infinity</li>
+                <li>NaN</li>
+            </ul>
+        </li>
+        <li>string</li>
+        <li>boolean</li>
+        <li>null</li>
+        <li>undefined</li>
+        <li>object</li>
+        <ul>
+            <li>array</li>
+        </ul>
+        <li>function</li>
+    </ul>
+    <p>O comando typeof retorna o tipo da variável, como por exemplo:</p>
+    <pre>
+        <code>
+        > var n = 200
+        undefined
+        > n
+        200
+        > typeof n
+        'number'
+        > var n = 'Google'
+        undefined
+        > n
+        'Google'
+        > typeof n
+        'string'
+        > typeof 6
+        'number'
+        > typeof 6.5
+        'number'
+        > typeof "6.5"
+        'string'
+        > typeof []
+        'object'
+        > typeof {}
+        'object'
+        > typeof function () {}
+        'function'
+        > typeof undefined
+        'undefined'
+        > typeof NaN
+        'number'
+        > typeof Infinity
+        'number'
+        > typeof null
+        'object'
+        </code>
+    </pre>
+    <h2>Curso em vídeo</h2>
+    <p><a href="https://www.cursoemvideo.com/curso/javascript/aulas/comandos-basicos-do-javascript/modulos/variaveis-e-tipos-primitivos/" target="_blank">link</a> para aula no curso em vídeo (Aula 05)</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vbabsye7mWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+    <script>
+        var n1 = 5
+        var n2 = 8.5
+        var n3 = 15
+        var s1 = "JavaScript"
+        var s2 = 'Curso em Video'
+        var s3 = `Guanabara`
+    </script>
+    
+    
+</body>
+</html>

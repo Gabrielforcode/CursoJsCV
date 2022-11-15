@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Exercício nacionalidade</h1>
+    Digite sua nacionalidade <input type="text" name="nas" id="nas">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res" style="padding-top: 50px;">
+
+    </div>
+    
+
+    <script>
+// # = id 
+// . = class
+    function verificar(){
+        var nas = String(window.document.querySelector('input#nas').value)
+        var res = window.document.querySelector('div#res')
+        res.innerHTML = `Sua nacionalidade é ${nas}`
+        if (nas == 'Brasileira'){
+            res.innerHTML = 'Voce é BR'
+        }else{
+            res.innerHTML = 'Tu se deu bem, tu não é BR'
+        }      
+
+ 
+
+        }
+
+    </script>
+
+    
+</body>
+</html>
+<!--
+    var pais = 'Brasil'
+console.log(`vivendo em ${pais}`)
+if(pais == 'Brasil'){
+    console.log('Brasileiro')
+}else{
+    console.log('Estrangeiro')
+}
+
+alert(`A soma dos valores é ${s.toString()}`)
+        alert(`A soma dos valores ${n1} e ${n2} é ${String(s)}`)
+-->

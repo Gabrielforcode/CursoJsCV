@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Js 001</title>
+    <style>
+        body{
+            background-color: blue;
+            color: white;
+            font: bold 3em Arial
+        }
+
+        body > h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo</h1>
+    <p>Já me livrei da maldição</p>
+
+    <script>
+        var n1 = Number.parseFloat(prompt('Digite um número') )// prompt retorna valor string
+        var n2 = Number.parseFloat(prompt('Digite outro número')) // prompt retorna valor string
+        var s = n1 + n2 
+        alert(`A soma dos valores é ${s}`)
+        // (number + number) para adição
+        // (string + string) para concatenaçãoNumber.
+        /* converção para number: 
+        Number.parseInt(n) (numero inteiro)
+        Number.parseFloat(n) (numero real) */
+        var n1 = Number(prompt('Digite um número') )// prompt retorna valor string
+        var n2 = Number(prompt('Digite outro número')) // prompt retorna valor string
+        var s = n1 + n2 
+        alert(`A soma dos valores é ${s}`)
+        var n1 = Number.parseInt(prompt('Digite um número') )// prompt retorna valor string
+        var n2 = Number.parseInt(prompt('Digite outro número')) // prompt retorna valor string
+        var s = n1 + n2 
+        alert(`A soma dos valores é ${s}`)
+        //String(n)
+        // n.toSting(n)
+        var n1 = Number.parseInt(prompt('Digite um número') )// prompt retorna valor string
+        var n2 = Number.parseInt(prompt('Digite outro número')) // prompt retorna valor string
+        var s = n1 + n2 
+        alert(`A soma dos valores é ${s.toString()}`)
+        alert(`A soma dos valores ${n1} e ${n2} é ${String(s)}`)
+        //s.length
+        //s.toUpperCase()
+        //s.toLowerCase()
+        
+    
+    </script>
+</body>
+</html>

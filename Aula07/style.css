@@ -1,0 +1,26 @@
+body {
+    background-color: #00427E;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    background-color: #9E9E9E;
+    text-align: center;
+    border-radius: 5px;
+}
+h2{
+    background-color: #9E9E9E;
+    text-align: center;
+    border-radius: 5px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #9E9E9E;
+    text-decoration: underline;
+    
+}
+
